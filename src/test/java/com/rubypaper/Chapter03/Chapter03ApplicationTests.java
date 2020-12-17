@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.core.env.Environment;
 import org.springframework.test.context.junit4.SpringRunner;
 
-@SpringBootTest(classes = BoardController.class,
+@SpringBootTest(
 				properties = {"author.name=Gurum",
 						"author.age=45",
 						"author.nation=Korea"})

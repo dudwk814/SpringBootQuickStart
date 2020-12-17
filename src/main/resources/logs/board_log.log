@@ -1,0 +1,12 @@
+2020-12-17 12:31:05.450 WARN  --- [restartedMain] c.rubypaper.Chapter03.LoggingRunner : WARN 로그 메시지 
+2020-12-17 12:31:05.450 ERROR --- [restartedMain] c.rubypaper.Chapter03.LoggingRunner : ERROR 로그 메시지 
+2020-12-17 13:05:10.836 WARN  --- [restartedMain] c.rubypaper.Chapter03.LoggingRunner : WARN 로그 메시지 
+2020-12-17 13:05:10.837 ERROR --- [restartedMain] c.rubypaper.Chapter03.LoggingRunner : ERROR 로그 메시지 
+2020-12-17 13:06:55.922 WARN  --- [restartedMain] c.rubypaper.Chapter03.LoggingRunner : WARN 로그 메시지 
+2020-12-17 13:06:55.923 ERROR --- [restartedMain] c.rubypaper.Chapter03.LoggingRunner : ERROR 로그 메시지 
+2020-12-17 13:10:24.630 WARN  --- [restartedMain] c.rubypaper.Chapter03.LoggingRunner : WARN 로그 메시지 
+2020-12-17 13:10:24.631 ERROR --- [restartedMain] c.rubypaper.Chapter03.LoggingRunner : ERROR 로그 메시지 
+2020-12-17 13:10:29.112 WARN  --- [restartedMain] c.rubypaper.Chapter03.LoggingRunner : WARN 로그 메시지 
+2020-12-17 13:10:29.113 ERROR --- [restartedMain] c.rubypaper.Chapter03.LoggingRunner : ERROR 로그 메시지 
+2020-12-17 13:10:42.433 WARN  --- [main] c.rubypaper.Chapter03.LoggingRunner : WARN �α� �޽��� 
+2020-12-17 13:10:42.439 ERROR --- [main] c.rubypaper.Chapter03.LoggingRunner : ERROR �α� �޽��� 

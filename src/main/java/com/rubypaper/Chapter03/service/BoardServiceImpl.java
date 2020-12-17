@@ -33,7 +33,7 @@ public class BoardServiceImpl implements BoardService{
 
         List<BoardVO> boardList = new ArrayList<>();
 
-        for (int i = 1; i < -10; i++) {
+        for (int i = 1; i <= 10; i++) {
             BoardVO board = new BoardVO();
 
             board.setSeq(i);
