@@ -7,8 +7,10 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Date;
@@ -53,7 +55,7 @@ public class QueryMethodTest {
     @Test
     public void testFindByContentContaining() {
 
-        Pageable paging = PageRequest.of(0, 5);
+        Pageable paging = PageRequest.of(0, 5, Sort.Direction.DESC, "seq");
 
         List<Board> boardList = boardRepository.findByContentContaining("내용",paging);
 
@@ -87,6 +89,28 @@ public class QueryMethodTest {
             System.out.println("---> " + board.toString());
         }
     }
+
+    @Test
+    public void testFindByTitleContaining() {
+
+        Pageable paging = PageRequest.of(0, 5, Sort.Direction.DESC, "seq");
+
+        Page<Board> pageInfo = boardRepository.findByTitleContaining("제목", paging);
+
+        System.out.println("Page Size : " + pageInfo.getSize());
+        System.out.println("Total Pages : " + pageInfo.getTotalPages());
+        System.out.println("TOTAL COUNT : " + pageInfo.getTotalElements());
+        System.out.println("NEXT : " + pageInfo.nextPageable());
+
+        List<Board> boardList = pageInfo.getContent();
+
+        System.out.println("검색 결과");
+        for (Board board : boardList) {
+            System.out.println("---> " + board.toString());
+        }
+    }
+
+
 
 
 }
