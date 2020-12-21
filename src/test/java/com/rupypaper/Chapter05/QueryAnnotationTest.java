@@ -1,3 +1,4 @@
+/*
 package com.rupypaper.Chapter05;
 
 import com.rupypaper.Chapter05.domain.Board;
@@ -75,3 +76,4 @@ public class QueryAnnotationTest {
         }
     }
 }
+*/

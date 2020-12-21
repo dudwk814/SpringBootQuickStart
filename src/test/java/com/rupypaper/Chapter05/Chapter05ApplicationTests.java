@@ -1,3 +1,4 @@
+/*
 package com.rupypaper.Chapter05;
 
 import com.rupypaper.Chapter05.domain.Board;
@@ -22,7 +23,9 @@ class Chapter05ApplicationTests {
 
 		Board board = new Board();
 		board.setTitle("첫 번째 게시글");
-		board.setWriter("테스터");
+		*/
+/*board.setWriter("테스터");*//*
+
 		board.setContent("잘 등록되겠지");
 		board.setCreateDate(new Date());
 		board.setCnt(0L);
@@ -55,3 +58,4 @@ class Chapter05ApplicationTests {
 		boardRepository.deleteById(1L);
 	}
 }
+*/

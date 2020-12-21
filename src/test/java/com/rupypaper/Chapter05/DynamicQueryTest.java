@@ -1,3 +1,4 @@
+/*
 package com.rupypaper.Chapter05;
 
 import com.querydsl.core.BooleanBuilder;
@@ -46,3 +47,4 @@ public class DynamicQueryTest {
         }
     }
 }
+*/
